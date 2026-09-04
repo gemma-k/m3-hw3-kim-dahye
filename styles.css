@@ -1,0 +1,108 @@
+/* Page */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    background-color: lightgray;
+    background-image: url("morocco.png");
+
+}
+
+/* Header */
+header {
+    background-color: white;
+    border-bottom: 2px solid grey;
+}
+
+.header-content {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+    padding: 25px;
+    background-color:teal;
+    color:white;
+}
+
+nav {
+    float: right;
+    padding: 30px 0;
+}
+
+nav a {
+    color: grey;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Main Content */
+main {
+    width: 960px;
+    margin: 40px auto;
+    overflow: hidden;
+}
+
+/* About Me */
+.about {
+    float: left;
+    width: 630px;
+    padding: 25px;
+    background-color: white;
+}
+
+.about h2 {
+    color: teal;
+    border-bottom: 2px solid grey;
+    padding-bottom: 15px
+}
+
+.about img {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    line-height: 1.5;
+}
+
+/* Sidebar */
+aside {
+    float: right;
+    width: 150px;
+    padding: 10px;
+    background-color: white;
+} 
+
+aside h2 {
+    color: teal;
+    border-bottom: 2px solid grey; 
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+aside a {
+    display: inline-block;
+    margin: 3px;
+}
+
+aside img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    padding: 25px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
